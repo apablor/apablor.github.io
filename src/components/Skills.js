@@ -50,7 +50,7 @@ function Skills (){
                                     <h5> React </h5>
                                 </div>
                                 <div className="item"> 
-                                    <AiFillStar/>  <AiFillStar/>  <AiFillStar/> 
+                                    <span className="stars"> <AiFillStar/>  <AiFillStar/>  <AiFillStar/> </span>
                                     <h5> Node.js</h5>
                                 </div> 
                             </Carousel>

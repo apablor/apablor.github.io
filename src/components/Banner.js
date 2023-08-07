@@ -1,6 +1,5 @@
 import {useState, useEffect} from "react"; 
-import { Container, Row, Col } from "react-bootstrap";
-import Portrait from "../assets/header.JPG"; 
+import {Container} from "react-bootstrap";
 
 function Banner(){
     const rotate = ["Web Developer", "Software Engineer", "Front-End Developer"]; 
@@ -13,7 +12,7 @@ function Banner(){
     // is the word that currently being typed out starting from letter to end
     const [text, setText] = useState(''); 
     // how long each letter comes after the first one is typed
-    const [delta, setDelta] = useState(300-Math.random() * 100);
+    const [delta, setDelta] = useState(300-Math.random() * 150);
     // const[index, setIndex] = useState(1); 
 
     useEffect(() => {
@@ -43,48 +42,21 @@ function Banner(){
         if(!isDeleting && updatedText === fullText){
             setIsDeleting(true); 
             setDelta(period);
-            // setIndex(prevIndex => prevIndex -1); 
         } 
         // if it is deleting and got to the point where the text has been completely deleted. 
         else if(isDeleting && updatedText === ""){
             setIsDeleting(false); 
-            setLoopNum(loopNum + 1)
-            // setIndex(1); 
-            setDelta(500); 
+            setLoopNum(loopNum + 1) 
+            setDelta(250); 
             }
-        // // if it is not deleting basically... 
-        // else{
-        //     setIndex(prevIndex => prevIndex + 1); 
-        // }
 }
-
-
     return (
-            <section className="banner" id="home" >
+            <section className="banner" id="home"> 
                 <Container> 
-                    <Row className="align-items-center"> 
-                        <Col className="image" xs={12} md={6} xl={5}> 
-                            <img src={Portrait} alt="header"/>
-                        </Col> 
-                        <Col xs={12} md={6} xl={7}>
-                            <span className="tagline">Welcome to my Portfolio</span> 
-                            <span className="wrap"> Hi! My name is Ashley & I am a: {text}</span>
-                            <p> Lorem ipsum dolor sit amet, 
-                                consectetur adipiscing elit. Sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate 
-                                velit esse cillum dolore eu fugiat nulla pariatur. 
-                                Excepteur sint occaecat cupidatat non proident, 
-                                sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <button onClick={() => console.log("connect")}>Lets connect</button>
-                        </Col>
-                    </Row>
-                </Container> 
+                    <span className="header"> Hey! I'm Ashley and I'm a </span> <br/> 
+                    <span className="wrap"> {text}</span> 
+                </Container>
             </section>
-
     )
 
 }
