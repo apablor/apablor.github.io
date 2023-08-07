@@ -6,7 +6,7 @@ function Resume(){
       <Container> 
         <Row className="resume-row"> 
           <h4 > Education </h4>
-          <Col className="right-set">
+          <Col sm={8} className="right-set">
             <h5> California State Univerity, Los Angeles</h5> 
             <div> Bachelors of Science in Computer Science <br/>  
                      Deans List 2020 & 2022
@@ -20,7 +20,7 @@ function Resume(){
         <Row className="resume-row"> 
           <h4> Job Experience </h4> 
           <Row> 
-            <Col className="right-set"> 
+            <Col sm={8} className="right-set"> 
               <h5> Urban Peace Movement </h5> 
                 <span> Event Coordinator  | Oakland, CA </span> 
                 <div> 
@@ -34,7 +34,7 @@ function Resume(){
             </Col> 
           </Row> 
           <Row> 
-            <Col className="right-set"> 
+            <Col sm={8} className="right-set"> 
               <h5> Electronic Arts </h5> 
               <span> Software Engineer Intern | Remote </span> 
               <div> 
@@ -54,7 +54,7 @@ function Resume(){
         <Row className="resume-row"> 
           <h4> Projects </h4>
           <Row> 
-            <Col className="right-set"> 
+            <Col sm={8}className="right-set"> 
               <h5> H.O.S.S Web App </h5> 
               <span> Front End Developer  | Los Angeles, CA </span> 
               <div> 
@@ -68,7 +68,7 @@ function Resume(){
             </Col> 
           </Row> 
           <Row> 
-            <Col className="right-set"> 
+            <Col sm={8} className="right-set"> 
               <h5> Art School Web Page </h5> 
               <div> 
                     ● Created a web page for a local art teacher and articulated their requirements such as allowing them to track attendance, improving student information management, and enhancing lesson organization <br/> 
@@ -81,7 +81,7 @@ function Resume(){
             </Col> 
           </Row>
           <Row> 
-            <Col className="right-set"> 
+            <Col sm={8} className="right-set"> 
               <h5> Hashocracy E-Commerce Site </h5> 
               <span> Blog Developer | Remote  </span> 
               <div> 
@@ -97,12 +97,12 @@ function Resume(){
             <h4> Skills </h4>
             <Col className="right-set">
               <div> 
-                Programming Languages & Scripting Languages: Java, SQL, JavaScript (ES6), Python, PHP <br/> 
-                Web Development: HTML, CSS, Django, Node.js, BootStrap, DOM Manipulation, Express<br/>
-                Databases: MySQL, PostgreSQL, MongoDB<br/>
-                Tools: SpringBoot, NPM, Git/GitHub, Visual Studio, JIRA, Atom, Postman, Excel, Tableau<br/>
-                Certifications: JavaScript Basics (Coursera), Front-End Engineer with Meta (Coursera)<br/>
-                Computer Science: Agile Methodologies, SCRUM, Software Development Lifecycle, Object-Oriented Programming, Software Design, Operating Systems (OS), Shell Scripting<br/>
+                <strong> Programming Languages & Scripting Languages: </strong> Java, SQL, JavaScript (ES6), Python, PHP <br/> 
+                <strong> Web Development: </strong>  HTML, CSS, Django, Node.js, BootStrap, DOM Manipulation, Express<br/>
+                <strong> Databases: </strong> MySQL, PostgreSQL, MongoDB<br/>
+                <strong> Tools: </strong>  SpringBoot, NPM, Git/GitHub, Visual Studio, JIRA, Atom, Postman, Excel, Tableau<br/>
+                <strong>Certifications: </strong>  JavaScript Basics (Coursera), Front-End Engineer with Meta (Coursera)<br/>
+                <strong> Computer Science: </strong>  Agile Methodologies, SCRUM, Software Development Lifecycle, Object-Oriented Programming, Software Design, Operating Systems (OS), Shell Scripting<br/>
               </div> 
             </Col>  
           </Row> 

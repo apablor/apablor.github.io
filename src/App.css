@@ -111,11 +111,8 @@
 
 /* -------------- Resume ---------------- */
 .resume{
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   min-height: 210vh;
-  padding-top: 170px;
+  padding: 150px 0 20px 0; 
   font-family: 'Times New Roman', Times, serif; 
 }
 
@@ -123,21 +120,21 @@
   text-align:left;
 }
 
+.right-set h5{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
 .resume-row h4{
   border-bottom: 1px solid pink; 
+  font-weight: bold;
+  padding: 15px 0 10px 0; 
 }
-/* .col h5, div, span{
-  text-align: left;
-} */
 
 .imp-dates{
   text-align: right;
 }
 
-/* .resume-row{
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-} */
 
 
 .App {
