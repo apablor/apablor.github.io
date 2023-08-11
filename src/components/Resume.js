@@ -83,8 +83,8 @@ function Resume(){
           </Row>
           <Row> 
             <Col sm={8} className="right-set"> 
-              <h5> Hashocracy E-Commerce Site </h5> 
-              <span> Blog Developer | Remote  </span> 
+              <h5> Hashocracy </h5> 
+              <span> Web Developer | Remote  </span> 
               <div> 
                     ● Designed a visually compelling and user-friendly website using Adobe Illustrator, Photoshop, and Sketch <br/> 
                     ● Showcased proficiency in programming by developing static pages and managing databases with thoroughness <br/> 
