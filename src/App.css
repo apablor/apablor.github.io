@@ -33,12 +33,13 @@ html {
   width: 100%;
   z-index: 999;
   transition:  0.30s ease-in-out;
-  margin-left: 30px;
-  background-color: white;
-  /* box-shadow:  0 1px 4px rgb(127, 115, 101); */
-  /* * text-shadow: 1px 1px 1px rgb(172, 130, 137); */ 
+  padding-left: 30px; 
   }
-  
+
+.scrolled{
+  background-color: pink;
+  box-shadow: 0 2px 2px black;  
+}
 
 .brand{
   font-family: 'Coestral Brand';
@@ -74,9 +75,6 @@ html {
   font-size: 65px;
 }
 
-/* .header{
-
-} */
 .wrap{
   min-height: 100px
 }
@@ -86,7 +84,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 0 50px 0; 
+  padding: 150px 0 50px 0; 
   min-height: 100vh; /* Set a minimum height to reserve space for typing effect */
   font-family: "Sarlotte Regular";
 }
