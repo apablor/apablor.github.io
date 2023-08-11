@@ -3,18 +3,6 @@
   font-family: 'Coestral Brand';
   src: local('Coestral Personal Use Regular'), url('./assets/CoestralPersonalUse-z8ZEw.woff') format('woff');
 }
-/* @font-face {
-  font-family: 'Sunset Imaginary';
-  src: local('Sunset Imaginary Personal Use Regular'), url('./assets/SunsetImaginaryPersonalUse-ALMyD.woff') format('woff');
-} */
-/* @font-face {
-  font-family: 'Bemirs';
-  src: local('Bemirs DemoVersion Regular'), url('./assets/BemirsDemoVersionRegular-X361d.otf') format('opentype');
-} */
-@font-face {
-  font-family: 'Aeion';
-  src: local('Aeion Mono Variable Test Regular'), url('./assets/AeionMonoVariableTest-Regular-BF64c1e6b7a096d.woff') format('woff');
-}
 
 @font-face {
   font-family: 'Sarlotte Regular';
