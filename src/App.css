@@ -21,6 +21,19 @@
   src: local('Sarlotte Regular'), url('./assets/SarlotteRegular-L3d73.woff') format('woff');
   }
 
+*{
+  background-color: iory ;
+}
+
+  /* loading page */
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: ivory;
+  }
+
 /* ----------------- navbar ------------------- */
 .navbar {
   position: fixed;
@@ -116,6 +129,15 @@
   font-family: 'Times New Roman', Times, serif; 
 }
 
+
+.download-res a{
+  color: rgb(216, 68, 157); 
+}
+
+.download-res a:hover{
+  color: rgb(214, 141, 185); 
+}
+
 .right-set{
   text-align:left;
 }
@@ -134,6 +156,91 @@
 .imp-dates{
   text-align: right;
 }
+
+/* ----------- contact me -------------- */
+.connect{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
+  padding: 100px 0 0 0;
+  font-family: 'Sarlotte Regular';
+  font-weight: 600;
+}
+
+.left-section input, 
+.right-section input, 
+.text-message{
+  margin: 20px 0 0 0;
+}
+
+
+.connect button {
+  background-color: pink;
+  border: 2px solid black;
+  box-shadow: black 4px 4px 0 0;
+  color: black;
+  /* cursor: pointer; */
+  /* display: inline-block;  */
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: right;
+  margin-top: 20px;
+  /* touch-action: manipulation; */
+}
+.connect button:hover {
+  background-color: ivory;
+}
+
+.connect button:active {
+  box-shadow: black 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+/* ------------ footer -------------- */
+.footer{ 
+  width: 100%;
+  z-index: 999;
+  transition:  0.30s ease-in-out;
+
+}
+
+.text-center a{
+  color: pink; 
+  padding: 10px ;
+  font-size: 35px;
+}
+
+.text-center a:hover{
+  color: rgb(208, 89, 186); 
+}
+
+.text-center div{
+  text-align: center;
+  font-size: 25px;
+  color: black; 
+}
+
+.text-center p{
+  text-align: center;
+  font-size: 18px;
+  color: black; 
+  font-family: 'Sarlotte Regular';
+
+}
+
+
+
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
 
 
 

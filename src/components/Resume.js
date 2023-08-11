@@ -4,6 +4,7 @@ function Resume(){
     return(
     <section className="resume" id="resume"> 
       <Container> 
+        <span className="download-res"> <a href="https://docs.google.com/document/d/1PDgFDDA-t14lkgJibltTD7VDhcismrShZvm0ojXdHi8/export?format=pdf" download> Click Here to Download My Resume</a></span> 
         <Row className="resume-row"> 
           <h4 > Education </h4>
           <Col sm={8} className="right-set">
@@ -30,7 +31,7 @@ function Resume(){
                 </div> 
             </Col> 
             <Col className="imp-dates"> 
-                <p > September 2017 - Present </p>
+                <p> September 2017 - Present </p>
             </Col> 
           </Row> 
           <Row> 
