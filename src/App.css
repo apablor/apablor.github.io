@@ -3,18 +3,6 @@
   font-family: 'Coestral Brand';
   src: local('Coestral Personal Use Regular'), url('./assets/CoestralPersonalUse-z8ZEw.woff') format('woff');
 }
-/* @font-face {
-  font-family: 'Sunset Imaginary';
-  src: local('Sunset Imaginary Personal Use Regular'), url('./assets/SunsetImaginaryPersonalUse-ALMyD.woff') format('woff');
-} */
-/* @font-face {
-  font-family: 'Bemirs';
-  src: local('Bemirs DemoVersion Regular'), url('./assets/BemirsDemoVersionRegular-X361d.otf') format('opentype');
-} */
-@font-face {
-  font-family: 'Aeion';
-  src: local('Aeion Mono Variable Test Regular'), url('./assets/AeionMonoVariableTest-Regular-BF64c1e6b7a096d.woff') format('woff');
-}
 
 @font-face {
   font-family: 'Sarlotte Regular';
@@ -118,8 +106,16 @@
 }
 
 .card{
-  width: 270px;
+  width: 300px;
   margin-top: 30px;
+}
+
+.project-card img {
+  /* Make the image cover the entire container while preserving its aspect ratio */
+  width: 100%;
+  height: 250px; 
+  object-fit: cover;
+  border-radius:5px;
 }
 
 /* -------------- Resume ---------------- */
