@@ -34,14 +34,11 @@ html {
   z-index: 999;
   transition:  0.30s ease-in-out;
   margin-left: 30px;
+  background-color: white;
   /* box-shadow:  0 1px 4px rgb(127, 115, 101); */
   /* * text-shadow: 1px 1px 1px rgb(172, 130, 137); */ 
   }
   
-  .scrolled {
-    padding: 2px 0;
-    background-color: white;
-  }
 
 .brand{
   font-family: 'Coestral Brand';
