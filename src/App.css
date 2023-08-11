@@ -9,8 +9,13 @@
   src: local('Sarlotte Regular'), url('./assets/SarlotteRegular-L3d73.woff') format('woff');
   }
 
-*{
-  background-color: iory ;
+/* *{
+  background-color: ivory ;
+} */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
   /* loading page */
@@ -31,6 +36,11 @@
   margin-left: 30px;
   /* box-shadow:  0 1px 4px rgb(127, 115, 101); */
   /* * text-shadow: 1px 1px 1px rgb(172, 130, 137); */ 
+  }
+  
+  nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color: #121212;
   }
 
 .brand{
